@@ -1,0 +1,12 @@
+﻿int Ax = 3;
+int Ay = 6;
+int Az = 8;
+int Bx = 2;
+int By = 1;
+int Bz = -7;
+int x = Bx - Ax;
+int y = By - Ay;
+int z = Bz - Az;
+double line = x * x + y * y + z * z;
+line = Math.Sqrt(line);
+Console.WriteLine("{0:f}", line);
